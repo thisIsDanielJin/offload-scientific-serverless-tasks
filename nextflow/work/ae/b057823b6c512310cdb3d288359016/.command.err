@@ -1,0 +1,5 @@
+/Users/danielwodke/Dropbox/Universität/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/ae/b057823b6c512310cdb3d288359016/.command.sh: line 3: csv_file: unbound variable
+sed: 1: ":a;N;$!ba;s/\n/\\n/g": unused label 'a;N;$!ba;s/\n/\\n/g'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    20  100     2  100    18     20    182 --:--:-- --:--:-- --:--:--   204

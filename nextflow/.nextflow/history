@@ -1,0 +1,3 @@
+2025-01-18 16:24:02	920ms	awesome_lamport	ERR	6ed6f444795aa32af79cefbfa1f5165b	13f69109-afa9-4ac4-8bee-d247244660c0	nextflow run main.nf
+2025-01-18 16:26:09	822ms	admiring_franklin	ERR	15a46880ab9efe9f5d2be27db97b6546	e0d39057-8f64-4f62-99a8-2cccccbcf066	nextflow run main.nf
+2025-01-18 16:28:51	1s	special_cori	ERR	aa162672358db0c4cbce424edf09a417	f7732ab0-cdc6-4340-bc5c-3954b456881c	nextflow run main.nf

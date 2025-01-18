@@ -1,0 +1,8 @@
+/Users/danielwodke/Dropbox/Universität/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/work/1c/8345e4d4714430747c85b7dc3457ca/.command.sh: line 3: csv_file: unbound variable
+Lese CSV-Datei...
+sed: 1: ":a;N;$!ba;s/\n/\\n/g": unused label 'a;N;$!ba;s/\n/\\n/g'
+Sende HTTP-Request an die Cloud Function...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    20  100     2  100    18     21    194 --:--:-- --:--:-- --:--:--   217
+Speichere Antwort als data.json
