@@ -1,0 +1,2 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+/Users/danielwodke/Dropbox/Universität/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/ec/d030f6c0497154a3d7b45dce786512/.command.sh: line 3: csv_file: unbound variable

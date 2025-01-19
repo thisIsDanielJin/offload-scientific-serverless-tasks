@@ -1,0 +1,4 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> data.csv
+[DEBUG] Making request to GCF..
+[DEBUG] Saved data.json

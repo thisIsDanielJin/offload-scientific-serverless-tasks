@@ -1,0 +1,20 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> 'data.csv'
+[DEBUG] Making request to GCF..
+[DEBUG] CSV_CONTENT -> name,age
+Daniel,24
+Tom,42
+Maria,18
+Note: Unnecessary use of -X or --request, POST is already inferred.
+* URL rejected: Bad hostname
+* Closing connection
+curl: (3) URL rejected: Bad hostname
+Note: Unnecessary use of -X or --request, POST is already inferred.
+* URL rejected: Bad hostname
+* Closing connection
+curl: (3) URL rejected: Bad hostname
+curl: (3) unmatched close brace/bracket in URL position 10:
+Maria,18 }
+         ^
+[DEBUG] data.json content after curl:
+[DEBUG] Finished request, wrote GCF response to data.json

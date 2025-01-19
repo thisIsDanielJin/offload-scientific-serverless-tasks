@@ -1,3 +1,42 @@
 2025-01-18 16:24:02	920ms	awesome_lamport	ERR	6ed6f444795aa32af79cefbfa1f5165b	13f69109-afa9-4ac4-8bee-d247244660c0	nextflow run main.nf
 2025-01-18 16:26:09	822ms	admiring_franklin	ERR	15a46880ab9efe9f5d2be27db97b6546	e0d39057-8f64-4f62-99a8-2cccccbcf066	nextflow run main.nf
 2025-01-18 16:28:51	1s	special_cori	ERR	aa162672358db0c4cbce424edf09a417	f7732ab0-cdc6-4340-bc5c-3954b456881c	nextflow run main.nf
+2025-01-18 16:32:35	1.5s	drunk_kay	OK	f5554f3c5b95d745d66767868dbefed9	109887ff-49b4-475f-aab1-6da66a64e21d	nextflow run pipeline.nf
+2025-01-18 16:36:01	1.4s	intergalactic_euler	OK	798a2c7bf3424756dbc9b1bd0a05c4b7	f44dc7b0-54b2-472a-9511-7019aef31d65	nextflow run pipeline.nf
+2025-01-18 16:42:24	1.3s	prickly_waddington	OK	798a2c7bf3424756dbc9b1bd0a05c4b7	357fa008-a1d1-4ce8-b24d-19f481fc4220	nextflow run pipeline.nf
+2025-01-18 16:43:09	993ms	trusting_cajal	ERR	9c55685da75d239f493eaf6832c4836d	79763434-1ab4-4cc3-8af9-6bbf9f7f65ed	nextflow run pipeline.nf
+2025-01-18 16:44:10	1.7s	scruffy_curran	ERR	9c55685da75d239f493eaf6832c4836d	dc18df4b-a6ad-41a9-bc43-7c79bfa7fb9a	nextflow run pipeline.nf
+2025-01-18 17:08:19	1.3s	big_shirley	ERR	9af5106e6512de7c17135cebacdc9830	124fe5c1-4e1f-417d-88fb-3f9276843f4d	nextflow run pipeline.nf
+2025-01-18 17:12:08	1s	berserk_thompson	OK	37a2f02a66cb9f57c1814b2a8b43e651	681b08e9-9dfa-47a1-a02a-877d43a7a8f4	nextflow run pipeline.nf
+2025-01-18 17:14:19	969ms	ecstatic_stonebraker	OK	6640ac38beaabacbe80bc6dc909206cf	48ec0812-f5e0-4a37-a953-940fd99d7c1a	nextflow run pipeline.nf
+2025-01-18 17:14:41	1.7s	happy_noyce	ERR	f4c04f01e9ff0741c6bb951ea4db370e	106aa122-6df0-4bb2-a6fd-562c66a7c8c9	nextflow run pipeline.nf
+2025-01-18 17:16:16	684ms	small_brenner	ERR	f4c04f01e9ff0741c6bb951ea4db370e	c32629fa-ee22-4e65-8829-71fb32aadfe5	nextflow run pipeline.nf
+2025-01-18 17:18:24	717ms	insane_joliot	ERR	f4c04f01e9ff0741c6bb951ea4db370e	02ee7910-ae46-4a80-83b1-e5f72d506af0	nextflow run pipeline.nf
+2025-01-18 17:20:25	769ms	mighty_kare	OK	14918a31773743feab51d98f4b207428	c9f97784-09ec-4726-a0e2-70aa119b75d8	nextflow run pipeline.nf
+2025-01-19 11:32:25	1.6s	festering_wiles	ERR	3176c663dac8a66b9c8704554fdfa2c6	0f3eb35a-ec5b-4bff-83cf-97f9c2a11410	nextflow run pipeline.nf
+2025-01-19 11:32:34	1.5s	sleepy_sax	OK	14918a31773743feab51d98f4b207428	ed1b3ffc-9d42-4895-93fe-4e48a2f82d7c	nextflow run pipeline.nf
+2025-01-19 11:43:45	1s	loquacious_dubinsky	ERR	69203563419a00b3d695c8b3e8e01137	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf
+2025-01-19 11:45:15	806ms	stoic_coulomb	ERR	69203563419a00b3d695c8b3e8e01137	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 11:46:35	797ms	lethal_nightingale	ERR	bd6c27e1fb2a198f6d1b1e078c017280	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 11:47:18	640ms	big_mendel	ERR	bd6c27e1fb2a198f6d1b1e078c017280	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 11:49:34	763ms	scruffy_saha	ERR	ac0768ddfa5e32556e93f9de13d167a6	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 11:51:44	-	amazing_ramanujan	-	b993f08bdeaca15faf925722951f890d	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 11:52:10	1.2s	astonishing_hoover	OK	ff38b113531cd12a639e18b1c35b9b7b	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 11:57:13	1.9s	voluminous_shaw	OK	a649d694d343a154c7787ff05c6e31ac	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:02:39	1.2s	spontaneous_chandrasekhar	OK	3b45f2506971a860cc111d938323f608	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:03:36	1.6s	special_pike	OK	6553493d78f58426c87cea0159705cd8	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:04:10	1.4s	hungry_cantor	OK	3e99b27a178faef45952ee283804d34f	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:07:01	-	dreamy_legentil	-	cd46c905ad55c1c6602be6c63ee26cf0	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:07:30	878ms	drunk_goldberg	OK	3b45f2506971a860cc111d938323f608	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:09:50	-	awesome_majorana	-	3de0290c44874c15079e98da42bb66a1	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:10:04	1.4s	reverent_torricelli	OK	3b45f2506971a860cc111d938323f608	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:14:58	1.4s	admiring_descartes	ERR	737e1e1bec9d8574574260131e4334b6	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:16:11	796ms	fabulous_rubens	ERR	45247c32222f620104d0da98fe2c1f74	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:16:29	908ms	prickly_mahavira	OK	3b45f2506971a860cc111d938323f608	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:17:45	888ms	maniac_curry	ERR	6931dea753670b5c61100044036e3a37	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:20:48	-	elated_lichterman	-	64c1879887131ec7b975c669e20330d0	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:22:00	951ms	backstabbing_heisenberg	OK	5e37b298dc497a162eeb1ef7b50528f4	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:23:32	1.5s	goofy_bhabha	OK	d7c66f8628714f7e6843718018a33067	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:24:16	1.5s	exotic_bartik	OK	42e4e18ecf87013dd89855ea156c899e	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:36:03	1.4s	sharp_sax	OK	42e4e18ecf87013dd89855ea156c899e	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
+2025-01-19 12:36:09	1.6s	scruffy_carlsson	OK	42e4e18ecf87013dd89855ea156c899e	2a804570-a2a5-43e7-8c98-39e6de3366d3	nextflow run pipeline.nf

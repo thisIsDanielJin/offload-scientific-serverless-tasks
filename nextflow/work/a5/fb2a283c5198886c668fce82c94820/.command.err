@@ -1,0 +1,11 @@
+Note: Unnecessary use of -X or --request, POST is already inferred.
+* URL rejected: Bad hostname
+* Closing connection
+curl: (3) URL rejected: Bad hostname
+Note: Unnecessary use of -X or --request, POST is already inferred.
+* URL rejected: Bad hostname
+* Closing connection
+curl: (3) URL rejected: Bad hostname
+curl: (3) unmatched close brace/bracket in URL position 10:
+Maria,18 }
+         ^

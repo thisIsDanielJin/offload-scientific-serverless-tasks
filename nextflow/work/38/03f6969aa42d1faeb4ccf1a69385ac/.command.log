@@ -1,0 +1,7 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> data.csv
+[DEBUG] Making request to GCF..
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   175  100   119  100    56   1379    649 --:--:-- --:--:-- --:--:--  2034
+[DEBUG] Saved data.json

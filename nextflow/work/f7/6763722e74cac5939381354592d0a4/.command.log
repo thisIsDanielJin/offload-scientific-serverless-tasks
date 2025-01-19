@@ -1,0 +1,7 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> data.csv
+[DEBUG] Making request to GCF..
+curl: (3) unmatched close brace/bracket in URL position 18:
+\Tom,42\Maria,18 }
+                 ^
+[DEBUG] Finished request, wrote GCF response to data.json

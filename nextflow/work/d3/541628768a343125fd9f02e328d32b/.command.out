@@ -1,0 +1,8 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> 'data.csv'
+[DEBUG] CSV_CONTENT -> name,age\nDaniel,24\nTom,42\nMaria,18\n
+JSON body => { "csv_data": "name,age\nDaniel,24\nTom,42\nMaria,18\n" }
+[DEBUG] Making request to GCF..
+[{"name": "Daniel", "age": "24"}, {"name": "Tom", "age": "42"}, {"name": "Maria", "age": "18"}][DEBUG] curl exit code: 0
+[DEBUG] data.json content after curl:
+[{"name": "Daniel", "age": "24"}, {"name": "Tom", "age": "42"}, {"name": "Maria", "age": "18"}][DEBUG] Finished request, wrote GCF response to data.json

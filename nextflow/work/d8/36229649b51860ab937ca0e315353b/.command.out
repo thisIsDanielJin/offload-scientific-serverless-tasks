@@ -1,0 +1,7 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> 'data.csv'
+[DEBUG] Making request to GCF..
+[DEBUG] CSV_CONTENT -> name,age\Daniel,24\Tom,42\Maria,18
+Fehler beim Konvertieren: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.[DEBUG] curl exit code: 0
+[DEBUG] data.json content after curl:
+Fehler beim Konvertieren: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.[DEBUG] Finished request, wrote GCF response to data.json

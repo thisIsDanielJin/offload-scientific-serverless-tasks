@@ -1,0 +1,3 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] Making request to GCF..
+[DEBUG] Finished request, wrote GCF response to data.json

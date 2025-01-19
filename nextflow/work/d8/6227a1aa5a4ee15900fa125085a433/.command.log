@@ -1,0 +1,6 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> data.csv
+[DEBUG] Making request to GCF..
+curl: (2) no URL specified
+curl: try 'curl --help' for more information
+[DEBUG] Finished request, wrote GCF response to data.json

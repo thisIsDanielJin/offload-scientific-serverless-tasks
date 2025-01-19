@@ -1,0 +1,3 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> data.csv
+/Users/danielwodke/Dropbox/Universität/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/12/b4af3349c8db917fec2cd0a08da902/.command.sh: line 16: unexpected EOF while looking for matching `''

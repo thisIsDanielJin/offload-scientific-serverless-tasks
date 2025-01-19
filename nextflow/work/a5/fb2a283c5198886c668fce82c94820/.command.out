@@ -1,0 +1,9 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> 'data.csv'
+[DEBUG] Making request to GCF..
+[DEBUG] CSV_CONTENT -> name,age
+Daniel,24
+Tom,42
+Maria,18
+[DEBUG] data.json content after curl:
+[DEBUG] Finished request, wrote GCF response to data.json

@@ -1,0 +1,9 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> data.csv
+sed: 1: ":a;N;$!ba;s/\n/\\n/g": unused label 'a;N;$!ba;s/\n/\\n/g'
+[DEBUG] Making request to GCF..
+curl: (3) URL rejected: Bad hostname
+curl: (3) URL rejected: Bad hostname
+curl: (3) unmatched close brace/bracket in URL position 10:
+Maria,18 }
+         ^
