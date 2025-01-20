@@ -1,0 +1,10 @@
+[DEBUG] Available metrics files:
+lrwxr-xr-x 1 root root 172 Jan 20 15:57 metrics_1.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/7b/b6017b67ac4922aaf6099e03422c13/metrics_small.json
+lrwxr-xr-x 1 root root 173 Jan 20 15:57 metrics_2.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/05/f65e8ce97368e2319bd73da56faff8/metrics_medium.json
+[DEBUG] Generated metrics content:
+{
+    "timestamp": "2025-01-20T15:57:38Z",
+    "total_workflow_duration_ms": 1737386920751,
+    "dataset_metrics": [
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "small",    "metrics": {        "input_size_bytes": 10817,        "output_size_bytes": 33808,        "duration_ms": 182,        "timestamp": "2025-01-20T15:57:37Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "medium",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 402,        "timestamp": "2025-01-20T15:57:37Z"    }}]}

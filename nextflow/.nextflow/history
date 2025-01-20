@@ -40,3 +40,63 @@
 2025-01-19 12:24:16	1.5s	exotic_bartik	OK	42e4e18ecf87013dd89855ea156c899e	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
 2025-01-19 12:36:03	1.4s	sharp_sax	OK	42e4e18ecf87013dd89855ea156c899e	c22b6592-3d89-4ea9-965f-8e58753896fb	nextflow run pipeline.nf -resume false
 2025-01-19 12:36:09	1.6s	scruffy_carlsson	OK	42e4e18ecf87013dd89855ea156c899e	2a804570-a2a5-43e7-8c98-39e6de3366d3	nextflow run pipeline.nf
+2025-01-19 12:39:25	1.4s	backstabbing_spence	OK	42e4e18ecf87013dd89855ea156c899e	34960d1e-9cd7-43ea-90d5-4c71ec4bbeb9	nextflow run pipeline.nf
+2025-01-19 16:30:25	1.9s	cranky_lagrange	OK	42e4e18ecf87013dd89855ea156c899e	2dd6126d-ea55-4e7a-a8b8-15721ec04861	nextflow run pipeline.nf -with-timeline
+2025-01-19 16:31:13	1.5s	boring_leavitt	OK	42e4e18ecf87013dd89855ea156c899e	5ce041c6-b137-406b-9142-e864ec1d7d00	nextflow run pipeline.nf -with-report
+2025-01-19 16:32:14	1.7s	cheeky_ardinghelli	OK	42e4e18ecf87013dd89855ea156c899e	1bf9f0d6-fc0b-4bd6-a48e-d9346d1433a9	nextflow run pipeline.nf -with-report report.html -with-trace trace.txt
+2025-01-19 16:34:11	2s	lonely_panini	OK	ccadee7f0c8d43258971eea2cffa56b2	663e5abf-208b-4a6e-a6be-c4098c753023	nextflow run pipeline.nf -with-timeline
+2025-01-19 16:35:54	2.1s	gloomy_boyd	OK	ccadee7f0c8d43258971eea2cffa56b2	51ecdfc1-747a-4a37-9141-31f4cc9b6515	nextflow run pipeline.nf -with-timeline
+2025-01-19 16:36:54	1.7s	prickly_pesquet	OK	5f9279ba41b6f8f16d64ce38b22dd89e	a23b00f9-b470-4552-9b6e-3b3e5ef07ce1	nextflow run pipeline.nf -with-timeline
+2025-01-19 16:49:21	-	angry_goldstine	-	5f9279ba41b6f8f16d64ce38b22dd89e	b14454d1-f490-4149-a85e-99960616206b	nextflow run pipeline.nf
+2025-01-19 16:52:06	1.6s	marvelous_faraday	ERR	c7baf5947d517bfe7e125d4fe972dcad	06638e5d-2037-4ca5-b610-28ad67e7eb35	nextflow run pipeline.nf
+2025-01-19 16:58:17	2.7s	evil_heisenberg	ERR	6740b39a6a2d5f60ec28b7c82e8ec953	7cfbb2fa-27ea-4a86-9db2-d99480df8d33	nextflow run pipeline.nf
+2025-01-19 16:58:58	1.3s	confident_stallman	OK	3347f75a97b57c0819f9495ec705e819	0e5f2c8b-8c8d-4b71-9425-db11529e5459	nextflow run pipeline.nf
+2025-01-19 17:07:06	2.8s	nasty_ekeblad	ERR	43333bafce963b274c13cbeff6784b2a	619d40a1-8271-4667-a10f-f7d3cf7eade8	nextflow run pipeline.nf
+2025-01-19 17:09:20	1.5s	irreverent_leakey	ERR	43333bafce963b274c13cbeff6784b2a	2d97687c-345a-45e8-823c-fecf4c0e51e8	nextflow run pipeline.nf
+2025-01-19 17:12:27	1.6s	drunk_kowalevski	ERR	43333bafce963b274c13cbeff6784b2a	252893a1-d93f-4f42-ba8a-c35c1f1c4e05	nextflow run pipeline.nf
+2025-01-19 17:13:24	2.2s	determined_stone	ERR	43333bafce963b274c13cbeff6784b2a	11910389-2fc2-4cde-8886-8fad40ca7c54	nextflow run pipeline.nf
+2025-01-19 17:16:06	1.6s	golden_meninsky	OK	a340b8ea5efc168aa6a7ba11dfb14de8	964a8bc3-e2aa-4c84-aa5e-2942ab7f9b9e	nextflow run pipeline.nf
+2025-01-19 17:25:11	2.2s	shrivelled_stonebraker	ERR	8f4c68eabb91eda805173e5524b1c4c3	176691a9-3622-42f0-89fb-e210833ba2bf	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-19 17:43:54	2.3s	special_becquerel	ERR	c422056d4f8bd36051293f1bc7936d82	243ab124-d33b-4be8-8d82-7eb582291c62	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 13:38:04	2.4s	exotic_perlman	OK	c422056d4f8bd36051293f1bc7936d82	08230a16-c0c2-47fe-bd3b-959aad00a5b8	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 13:41:55	1.8s	crazy_brahmagupta	OK	2eec7a05ee3e44f7bb3e51fc5fe42458	bcc8c8c5-9294-431a-abcb-e429e0e9316b	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 13:44:22	2.3s	mighty_nobel	OK	9ba7483372e548c94e3717f0a3b61023	663482ca-49b1-482a-b30d-ab43de4e86e6	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 13:45:15	2s	intergalactic_williams	OK	2f0eaae02dca573622a9a7b2f8abdccc	68eb3860-52fa-41b8-80c4-d44b7573cebc	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 13:45:35	1.8s	zen_jepsen	OK	ea722476aea00784e05aa7a1deb4d24f	7f70054e-ec28-4208-b517-5cd96c9bfced	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 13:46:46	1.6s	ridiculous_visvesvaraya	OK	9397db4a438987e312ff4e27ab5e6f2f	5a7aa1c7-8f16-4882-82a9-2691c9f02079	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 13:49:11	2s	peaceful_rutherford	OK	ea722476aea00784e05aa7a1deb4d24f	51f8d29f-08e4-44b6-b7fe-4bbe852bd620	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 13:50:56	2s	mad_newton	OK	aed63925f96c9e0650f50b5afc0df743	29c17caa-709c-4b5f-8bd9-a38fdfac1dd8	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 13:57:01	-	distracted_spence	-	93679fcbcc54d0b7734f2ac3bc748fd5	2c02a86b-f903-4b03-9395-78d8ecd2460e	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 13:59:53	3.5s	mighty_boyd	OK	644770892fe6732b8df2d3576481e65e	1604f58b-2d2c-489e-83e9-da89edad182c	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 14:01:35	1.3s	scruffy_woese	ERR	247a198a56c228edf5ff4e82fc025eec	64279752-9654-47f8-9215-fe056df1da27	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 14:04:11	919ms	reverent_kirch	ERR	b8cabb4e21fcff6e472fc1de6038bab3	83f915b1-e8f4-4d45-ad79-92daa8ed9787	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 14:05:39	1m 23s	ridiculous_colden	ERR	fed1832536b9ae951165255b31bcee3a	d98ed4ee-7bc2-4244-8c46-d28c78edc3eb	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 14:08:18	1m 22s	cheeky_borg	ERR	fed1832536b9ae951165255b31bcee3a	370028d1-7c64-4971-916c-ee621540da16	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 14:12:36	3.3s	boring_shirley	ERR	1cac2cdd1f61ad481165d97d42b61993	1b521d80-4883-44f3-b889-47f0412f6552	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 14:16:27	1m 12s	pensive_ramanujan	ERR	1cac2cdd1f61ad481165d97d42b61993	56ca9c84-01bb-4c65-94f9-1433dc9d9a8f	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 14:20:12	2.1s	voluminous_wing	ERR	9a968dda3e2a305e151c191286a25804	219abcb2-d3d1-4302-b9ac-3a7bb5aa1b61	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 14:25:06	1.9s	stupefied_sinoussi	ERR	ecca0a6fd8fb6caacf6441b2ae3b0d32	bd0a52df-8744-4a0f-b321-f11d1e368111	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:08:24	1.7s	jovial_borg	ERR	1cbd5392c9872f32d85dfdae35d0fa83	697a4aa2-3103-4ef8-bee5-a73310476392	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:08:55	1.6s	fabulous_magritte	ERR	8db5d355cb1618de6e9a32248e1a230d	da4cce09-74f6-4616-a7cf-a1eb61a37883	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:10:24	1.8s	exotic_swirles	ERR	14e37253d44ed803ad079b1064c406f1	01d6c3fa-9cec-4b77-9258-14b44bf4b318	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:11:52	3.6s	admiring_boltzmann	ERR	da6699913a63e67500575a9b9227d97f	834f6f34-f534-4120-86bb-1264001608ad	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:13:02	2.3s	crazy_bardeen	ERR	1280b51c8261f817ef0e9313652761e7	56f509a3-c9c5-439c-a718-6b98d6aa6a12	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:16:08	2.1s	stupefied_wozniak	ERR	891ec85cf08de1ba4ce318f1de5984c6	40d7ea73-7f67-46a2-ba1a-c7cc7102a622	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:17:04	875ms	extravagant_volta	ERR	2a5dbbe85750889937237bde9f2ea7d6	ada6bce4-2f89-410e-81aa-d4a444e55670	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:18:20	1.9s	clever_blackwell	ERR	a6d46023e82bd2cb57c5a558e3c56420	bf86e9b5-2103-4e67-8333-df202d4d309e	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:21:59	2.4s	sharp_hopper	ERR	54d20f71e358d3d93db7a0f479962a83	0c26f56e-b2ef-490d-a97e-c558169b37e6	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:23:04	2.9s	jolly_jennings	OK	ef3aadddd1cf7cc689836ac42debe93e	69f44467-d86b-4e38-8c3a-2835e5f90aa9	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:25:36	2.8s	fervent_leibniz	OK	f00c82ad8a84bd1e2eba74930570b98e	4548423a-a3a9-4150-8fc2-c9f8851edd43	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:27:11	1.5s	suspicious_cori	ERR	8d44a0b6706a24a4b2a47560f5edf814	bc585b23-2766-411f-b194-e71a6e918a14	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:33:12	2.4s	fabulous_albattani	OK	ef3aadddd1cf7cc689836ac42debe93e	4b278797-e5c3-45f5-8aa1-769d14dda5e4	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:38:28	-	festering_carlsson	-	010c6ae03a5ae4c74f7cb4b144a48328	59d56344-5b8d-458e-8633-f663754de5c4	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:39:38	1.4s	pensive_mclean	OK	1c4a5877e8d5170d94f7726548ef7401	d595860d-ce0b-49b5-a65c-d3be61ef668f	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:41:55	1.4s	astonishing_mendel	OK	57c8e7a9a7c878c8a8dca45c38f8163e	c0c7db3b-d9fc-4631-8e44-ad403b1626f5	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:44:16	2.6s	sleepy_volta	OK	9d6f47244fe962bc0045783cc963dfc3	d66a6ab7-4cee-4f5d-b26b-f1107d6a503f	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:48:34	2s	golden_swanson	ERR	c43158bbdc51ccca9e327cbc230486a2	3964a8c8-6d43-4ee0-a028-ff2a687c1ce3	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:50:01	1.7s	distraught_shockley	ERR	8c7941e307aa5a21307dda4d55b7bb0c	4153578d-aefd-49bf-a2cb-896e532ca2cb	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:52:20	2.4s	drunk_marconi	ERR	27b7c5289687d3490e19eac6b9db5535	e94a5b38-d50f-48d1-b038-536e3d51049e	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:53:45	2.7s	dreamy_descartes	OK	fd2a0e55b4e90313204432803e0302c1	b3f4242b-a00d-4aea-a59d-15b4ed810ae9	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:57:36	2.4s	jolly_kimura	OK	38fea346c9247e810d81fb09ecef375c	1560ea2d-a64c-4992-9fa4-23b1c5575ad3	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:58:00	2.2s	amazing_lovelace	OK	fd2a0e55b4e90313204432803e0302c1	7ead1891-ef6f-4f91-9d84-957b644d4824	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 16:58:23	2.6s	grave_wiles	OK	fd2a0e55b4e90313204432803e0302c1	92413960-98b6-476c-8232-4a56d1ae8536	nextflow run pipeline.nf -with-docker nextflow_gfc_image

@@ -1,0 +1,31 @@
+[DEBUG] Processing small dataset: data_small.csv
+[DEBUG] File content preview:
+name,age
+User1,84
+User2,39
+[DEBUG] Prepared CSV content (first 100 chars):
+User1,84
+User2,39
+User3,78
+User4,79
+User5,91
+User6,19
+User7,33
+User8,76
+User9,27
+User10,55
+User11,47[DEBUG] Request body preview (first 100 chars):
+{"csv_data":"User1,84
+User2,39
+User3,78
+User4,79
+User5,91
+User6,19
+User7,33
+User8,76
+User9,27
+User10[DEBUG] Making API call to https://europe-west10-neural-engine-448210-n5.cloudfunctions.net/poc-ssw-google-cloud-function
+[DEBUG] API Response:
+Fehler beim Konvertieren: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[ERROR] Invalid JSON response received:
+Fehler beim Konvertieren: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.

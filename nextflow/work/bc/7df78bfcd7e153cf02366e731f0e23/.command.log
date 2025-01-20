@@ -1,0 +1,81 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON
+[DEBUG] csv_file -> 'data.csv'
+[DEBUG] CSV_CONTENT -> name,age\nDaniel,24\nTom,42\nMaria,18\n
+JSON body => { "csv_data": "name,age\nDaniel,24\nTom,42\nMaria,18\n" }
+[DEBUG] Making request to GCF..
+Note: Unnecessary use of -X or --request, POST is already inferred.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 216.239.36.54:443...
+* TCP_NODELAY set
+* Connected to europe-west10-neural-engine-448210-n5.cloudfunctions.net (216.239.36.54) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+  CApath: /etc/ssl/certs
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [15 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [11343 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [80 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: CN=misc.google.com
+*  start date: Dec  9 08:36:34 2024 GMT
+*  expire date: Mar  3 08:36:33 2025 GMT
+*  subjectAltName: host "europe-west10-neural-engine-448210-n5.cloudfunctions.net" matched cert's "*.cloudfunctions.net"
+*  issuer: C=US; O=Google Trust Services; CN=WR2
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+} [5 bytes data]
+* Using Stream ID: 1 (easy handle 0xaaaacbfaa400)
+} [5 bytes data]
+> POST /poc-ssw-google-cloud-function HTTP/2
+> Host: europe-west10-neural-engine-448210-n5.cloudfunctions.net
+> user-agent: curl/7.68.0
+> accept: */*
+> content-type: application/json
+> content-length: 57
+> 
+} [5 bytes data]
+* We are completely uploaded and fine
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [282 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [282 bytes data]
+* old SSL session ID is stale, removing
+{ [5 bytes data]
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+} [5 bytes data]
+< HTTP/2 200 
+< content-type: application/json
+< x-cloud-trace-context: 4ee40bf8001bf8934f25e932a9bf573e;o=1
+< date: Mon, 20 Jan 2025 12:49:12 GMT
+< server: Google Frontend
+< content-length: 95
+< alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+< 
+{ [5 bytes data]
+100   152  100    95  100    57   1055    633 --:--:-- --:--:-- --:--:--  1688
+* Connection #0 to host europe-west10-neural-engine-448210-n5.cloudfunctions.net left intact
+[{"name": "Daniel", "age": "24"}, {"name": "Tom", "age": "42"}, {"name": "Maria", "age": "18"}][DEBUG] curl exit code: 0
+[DEBUG] API call duration: 96ms
+[DEBUG] Finished request, wrote GCF response to data.json
+[DEBUG] Total process duration: 99ms

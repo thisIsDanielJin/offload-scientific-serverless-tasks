@@ -1,0 +1,8 @@
+{
+    "process": "PRINT_JSON_CONTENT",
+    "dataset_size": "medium",
+    "metrics": {
+        "output_size_bytes": 119,
+        "timestamp": "2025-01-20T15:18:21Z"
+    }
+}

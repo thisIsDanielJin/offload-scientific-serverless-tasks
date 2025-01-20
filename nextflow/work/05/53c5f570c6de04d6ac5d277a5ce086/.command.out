@@ -1,0 +1,6 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON for large dataset
+[DEBUG] Input size: 100001 lines, 1278911 bytes
+[DEBUG] Processing in 101 chunks
+[DEBUG] Processing chunk 1/101 (10805 bytes)
+[DEBUG] API Response: Fehler beim Konvertieren: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[ERROR] Invalid JSON response from API

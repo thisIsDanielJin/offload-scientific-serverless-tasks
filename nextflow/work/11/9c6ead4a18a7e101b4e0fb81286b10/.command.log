@@ -1,0 +1,5 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON for small dataset
+[DEBUG] Input size: 1001 lines
+[DEBUG] Processing in 2 chunks
+[DEBUG] Processing chunk 1/2
+[DEBUG] Processing chunk 2/2

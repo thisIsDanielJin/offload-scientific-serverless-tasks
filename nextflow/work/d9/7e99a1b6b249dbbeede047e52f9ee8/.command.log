@@ -1,0 +1,22 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON for large dataset
+[DEBUG] Input size: 100001 lines, 1278911 bytes
+[DEBUG] Processing in 101 chunks
+[DEBUG] Processing chunk 1/101 (10805 bytes)
+[DEBUG] Processing chunk 2/101 (11894 bytes)
+[DEBUG] Processing chunk 3/101 (11900 bytes)
+[DEBUG] Processing chunk 4/101 (11889 bytes)
+[DEBUG] Processing chunk 5/101 (11901 bytes)
+[DEBUG] Processing chunk 6/101 (11901 bytes)
+[DEBUG] Processing chunk 7/101 (11899 bytes)
+[DEBUG] Processing chunk 8/101 (11906 bytes)
+[DEBUG] Processing chunk 9/101 (11903 bytes)
+[DEBUG] Processing chunk 10/101 (11899 bytes)
+[DEBUG] Processing chunk 11/101 (12907 bytes)
+[DEBUG] Processing chunk 12/101 (12893 bytes)
+[DEBUG] Processing chunk 13/101 (12903 bytes)
+[DEBUG] Processing chunk 14/101 (12893 bytes)
+[DEBUG] Processing chunk 15/101 (12904 bytes)
+[DEBUG] Processing chunk 16/101 (12887 bytes)
+[DEBUG] Processing chunk 17/101 (12902 bytes)
+[DEBUG] Processing chunk 18/101 (12899 bytes)
+nxf-ecpbUxRtNfdtsAR23ZsW4Xcn

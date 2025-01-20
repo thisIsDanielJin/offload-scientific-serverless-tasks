@@ -1,0 +1,46 @@
+{
+    "process": "CONVERT_CSV_TO_JSON",
+    "dataset_size": "small",
+    "metrics": {
+        "input": {
+            "lines": 1001,
+            "bytes": 10817
+        },
+        "timing": {
+            "total_duration_ms": 1478,
+            "avg_chunk_time_ms": 138.50,
+            "min_chunk_time_ms": 132,
+            "max_chunk_time_ms": 145,
+            "avg_api_time_ms": 113.00,
+            "total_api_time_ms": 226
+        },
+        "throughput": {
+            "mb_per_second": 0,
+            "chunks_processed": 2,
+            "total_bytes_processed": 10817
+        },
+        "system_metrics": {
+            "memory": {
+                "before_mb": 653,
+                "after_mb": 552,
+                "delta_mb": -101
+            },
+            "cpu": {
+                "before_percent": 2.2,
+                "after_percent": 3.8,
+                "delta_percent": 1.6
+            },
+            "disk": {
+                "before_bytes": 444522520576,
+                "after_bytes": 444526059520,
+                "delta_bytes": 3538944
+            },
+            "load": {
+                "before": 0.56,
+                "after": 0.60,
+                "delta": .04
+            }
+        },
+        "timestamp": "2025-01-20T13:16:30Z"
+    }
+}

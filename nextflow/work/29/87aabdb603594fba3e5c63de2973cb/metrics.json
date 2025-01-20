@@ -1,0 +1,11 @@
+{
+    "process": "CONVERT_CSV_TO_JSON",
+    "dataset_size": "small",
+    "metrics": {
+        "input_lines": 1001,
+        "total_duration_ms": 158,
+        "api_duration_ms": 138,
+        "memory_usage_mb": -56,
+        "timestamp": "2025-01-20T13:01:36Z"
+    }
+}

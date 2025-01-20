@@ -1,0 +1,16 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON for medium dataset
+[DEBUG] Input size: 10001 lines, 117910 bytes
+[DEBUG] Processing in 11 chunks
+[DEBUG] Processing chunk 1/11 (10805 bytes)
+[DEBUG] Processing chunk 2/11 (11894 bytes)
+[DEBUG] Processing chunk 3/11 (11900 bytes)
+[DEBUG] Processing chunk 4/11 (11889 bytes)
+[DEBUG] Processing chunk 5/11 (11901 bytes)
+[DEBUG] Processing chunk 6/11 (11901 bytes)
+[DEBUG] Processing chunk 7/11 (11899 bytes)
+[DEBUG] Processing chunk 8/11 (11906 bytes)
+[DEBUG] Processing chunk 9/11 (11903 bytes)
+[DEBUG] Processing chunk 10/11 (11899 bytes)
+[DEBUG] Processing chunk 11/11 (13 bytes)
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/d1/c328e080459773ff0eb83549f2b20b/.command.sh: line 98: bc: command not found
+nxf-EArPaRqqpkNtvle14uqXCXvg

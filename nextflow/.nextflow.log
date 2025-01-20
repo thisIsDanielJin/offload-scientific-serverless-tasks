@@ -1,0 +1,76 @@
+Jan-20 16:58:23.419 [main] DEBUG nextflow.cli.Launcher - $> nextflow run pipeline.nf -with-docker nextflow_gfc_image
+Jan-20 16:58:23.508 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 24.10.3
+Jan-20 16:58:23.521 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/Users/danielwodke/.nextflow/plugins; core-plugins: nf-amazon@2.9.2,nf-azure@1.10.2,nf-cloudcache@0.4.2,nf-codecommit@0.2.2,nf-console@1.1.4,nf-google@1.15.3,nf-tower@1.9.3,nf-wave@1.7.4
+Jan-20 16:58:23.533 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jan-20 16:58:23.534 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jan-20 16:58:23.535 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Jan-20 16:58:23.542 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jan-20 16:58:23.554 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/nextflow.config
+Jan-20 16:58:23.555 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/nextflow.config
+Jan-20 16:58:23.570 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /Users/danielwodke/.nextflow/secrets/store.json
+Jan-20 16:58:23.572 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@4b61d0c6] - activable => nextflow.secret.LocalSecretsProvider@4b61d0c6
+Jan-20 16:58:23.575 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Jan-20 16:58:23.778 [main] DEBUG nextflow.config.ConfigBuilder - Enabling execution in Docker container as requested by command-line option `-with-docker nextflow_gfc_image`
+Jan-20 16:58:23.789 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Jan-20 16:58:23.799 [main] DEBUG nextflow.cli.CmdRun - Launching `pipeline.nf` [grave_wiles] DSL2 - revision: fd2a0e55b4
+Jan-20 16:58:23.799 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jan-20 16:58:23.799 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jan-20 16:58:23.824 [main] DEBUG nextflow.Session - Session UUID: 92413960-98b6-476c-8232-4a56d1ae8536
+Jan-20 16:58:23.824 [main] DEBUG nextflow.Session - Run name: grave_wiles
+Jan-20 16:58:23.824 [main] DEBUG nextflow.Session - Executor pool size: 12
+Jan-20 16:58:23.829 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jan-20 16:58:23.832 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jan-20 16:58:23.845 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 24.10.3 build 5933
+  Created: 16-12-2024 15:34 UTC (16:34 CEST)
+  System: Mac OS X 14.6.1
+  Runtime: Groovy 4.0.23 on OpenJDK 64-Bit Server VM 17.0.13+0
+  Encoding: UTF-8 (UTF-8)
+  Process: 52949@MBPvonDaniel5 [192.168.2.196]
+  CPUs: 12 - Mem: 36 GB (61.4 MB) - Swap: 3 GB (1 GB)
+Jan-20 16:58:23.853 [main] DEBUG nextflow.Session - Work-dir: /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work [Mac OS X]
+Jan-20 16:58:23.853 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/bin
+Jan-20 16:58:23.860 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jan-20 16:58:23.864 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jan-20 16:58:23.878 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jan-20 16:58:23.885 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Jan-20 16:58:23.910 [main] DEBUG nextflow.Session - Session start
+Jan-20 16:58:23.911 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/trace-20250120-61103866.txt
+Jan-20 16:58:24.114 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jan-20 16:58:24.201 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-20 16:58:24.201 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-20 16:58:24.205 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jan-20 16:58:24.207 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=36 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Jan-20 16:58:24.208 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jan-20 16:58:24.251 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jan-20 16:58:24.251 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jan-20 16:58:24.254 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: CONVERT_CSV_TO_JSON, AGGREGATE_METRICS
+Jan-20 16:58:24.254 [main] DEBUG nextflow.Session - Igniting dataflow network (3)
+Jan-20 16:58:24.254 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > CONVERT_CSV_TO_JSON
+Jan-20 16:58:24.255 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > AGGREGATE_METRICS
+Jan-20 16:58:24.255 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Script_0368ea8a2d2e586b: /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/pipeline.nf
+Jan-20 16:58:24.255 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jan-20 16:58:24.255 [main] DEBUG nextflow.Session - Session await
+Jan-20 16:58:24.356 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-20 16:58:24.357 [Task submitter] INFO  nextflow.Session - [7c/55a450] Submitted process > CONVERT_CSV_TO_JSON (1)
+Jan-20 16:58:24.364 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-20 16:58:24.365 [Task submitter] INFO  nextflow.Session - [2a/bbcfe2] Submitted process > CONVERT_CSV_TO_JSON (2)
+Jan-20 16:58:24.852 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: CONVERT_CSV_TO_JSON (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/7c/55a450f3166b2875d62520a53bbcc3]
+Jan-20 16:58:24.853 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jan-20 16:58:24.878 [TaskFinalizer-1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Jan-20 16:58:25.065 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: CONVERT_CSV_TO_JSON (2); status: COMPLETED; exit: 0; error: -; workDir: /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/2a/bbcfe2d360fae1db04dd8ee510a54c]
+Jan-20 16:58:25.082 [Actor Thread 12] DEBUG nextflow.util.HashBuilder - [WARN] Unknown hashing type: class java.util.Date
+Jan-20 16:58:25.091 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jan-20 16:58:25.091 [Task submitter] INFO  nextflow.Session - [59/bf96c9] Submitted process > AGGREGATE_METRICS
+Jan-20 16:58:25.407 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: AGGREGATE_METRICS; status: COMPLETED; exit: 0; error: -; workDir: /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/59/bf96c914ae0523cb587985466f4758]
+Jan-20 16:58:25.411 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jan-20 16:58:25.508 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jan-20 16:58:25.508 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jan-20 16:58:25.510 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Jan-20 16:58:25.510 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+Jan-20 16:58:25.513 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=3; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=575ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+Jan-20 16:58:25.513 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Jan-20 16:58:25.576 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jan-20 16:58:25.588 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jan-20 16:58:25.588 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

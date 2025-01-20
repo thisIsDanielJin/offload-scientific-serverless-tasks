@@ -1,0 +1,6 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON for small dataset
+[DEBUG] Input size: 1001 lines, 10817 bytes
+[DEBUG] Processing in 2 chunks
+[DEBUG] Processing chunk 1/2 (10805 bytes)
+[DEBUG] Processing chunk 2/2 (12 bytes)
+parse error: Invalid numeric literal at line 1, column 7

@@ -1,0 +1,10 @@
+[DEBUG] Reading CSV file: data_small.csv
+[DEBUG] File size: 10817 bytes
+[DEBUG] First few lines of CSV:
+name,age
+User1,84
+User2,39
+[DEBUG] Request payload size: 10832 bytes
+[DEBUG] Response size: 119 bytes
+[DEBUG] Response content:
+Fehler beim Konvertieren: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.

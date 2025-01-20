@@ -1,0 +1,10 @@
+{
+    "process": "CONVERT_CSV_TO_JSON",
+    "dataset_size": "small",
+    "metrics": {
+        "input_size_bytes": 10817,
+        "output_size_bytes": 33808,
+        "duration_ms": 155,
+        "timestamp": "2025-01-20T15:58:01Z"
+    }
+}

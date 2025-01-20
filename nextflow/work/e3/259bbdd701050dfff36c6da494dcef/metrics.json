@@ -1,0 +1,11 @@
+{
+    "process": "CONVERT_CSV_TO_JSON",
+    "dataset_size": "medium",
+    "metrics": {
+        "input_lines": 10001,
+        "total_duration_ms": 7601,
+        "chunks_processed": 11,
+        "memory_usage_mb": -9,
+        "timestamp": "2025-01-20T13:05:48Z"
+    }
+}

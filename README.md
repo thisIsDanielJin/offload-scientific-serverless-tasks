@@ -1,53 +1,99 @@
-# CSV to JSON Conversion Pipeline with Nextflow
+# Serverless Scientific Workflow PoC
 
-This project demonstrates a serverless workflow for converting CSV files to JSON format using Nextflow and a Google Cloud Function (GCF). The pipeline processes a CSV file, converts it to JSON, and displays the result.
+This project demonstrates a scalable scientific workflow using Nextflow and Google Cloud Functions.
 
 ## Prerequisites
 
-Before running the pipeline, ensure you have the following installed:
+-   Docker
+-   Nextflow (24.10.3 or later)
+-   curl
 
--   [Nextflow](https://www.nextflow.io/)
+## Docker Setup
 
-## Pipeline Overview
+1. Build the Docker image:
 
-The pipeline consists of two processes:
-
-1. `CONVERT_CSV_TO_JSON`: Reads the CSV file, converts its content to a JSON payload, and sends it to the Google Cloud Function.
-2. `PRINT_JSON_CONTENT`: Displays the response received from the Google Cloud Function.
-
-## Folder Structure
-
-```plaintext
-.
-├── pipeline.nf          # The main Nextflow script
-├── data/
-│   └── data.csv         # Input CSV file
-├── results/             # Output directory for results
-└── README.md            # Project documentation
+```bash
+cd nextflow
+docker build -t nextflow_gfc_image .
 ```
 
-## Usage
+2. Verify the image:
 
-1. **Prepare the Input CSV File**:  
-   Place your CSV file in the `data/` directory. Ensure the file is named `data.csv`.
+```bash
+docker images | grep nextflow_gfc_image
+```
 
-    Example `data.csv`:
+## Running the Pipeline
 
-    ```csv
-    name,age
-    Daniel,24
-    Tom,42
-    Maria,18
+The pipeline is configured to run scalability tests with different dataset sizes in parallel:
 
-    ```
+```bash
+nextflow run pipeline.nf -with-docker nextflow_gfc_image
+```
 
-2. **Run the Pipeline**:
-   Execute the following command
-    ```
-    nextflow run pipeline.nf
-    ```
-3. **View the Output**:
-   After succesful execution:
+## Output Structure
 
--   The JSON output will be saved in the `results/` directory as `data.json`.
--   The content will also be displayed in the terminal.
+The pipeline generates metrics for each dataset size:
+
+```
+results/
+├── small/
+│   ├── data.json
+│   └── process_metrics.json
+├── medium/
+│   ├── data.json
+│   └── process_metrics.json
+├── large/
+│   ├── data.json
+│   └── process_metrics.json
+├── execution_metrics.json
+└── scalability_metrics.json
+```
+
+## Metrics Collected
+
+-   **Process Level**:
+
+    -   Input size (lines/bytes)
+    -   Processing duration
+    -   Memory usage
+    -   API call timing
+    -   CPU utilization
+
+-   **Workflow Level**:
+    -   Total execution time
+    -   Success/failure status
+    -   Resource utilization
+
+## Docker Container Details
+
+The `nextflow_gfc_image` container includes:
+
+-   Base OS tools for system metrics (free, top)
+-   curl for API requests
+-   JSON processing utilities
+-   Required system libraries
+
+## Reproducibility Notes
+
+To ensure consistent results:
+
+1. Always use the Docker container
+2. Run with the same resource constraints
+3. Keep network conditions similar
+4. Use the same dataset sizes
+
+## Troubleshooting
+
+If you encounter Docker-related issues:
+
+```bash
+# Remove old containers
+docker rm $(docker ps -a -q)
+
+# Clean up images
+docker system prune -f
+
+# Rebuild image
+docker build -t nextflow_gfc_image .
+```

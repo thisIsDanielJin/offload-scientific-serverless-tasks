@@ -1,0 +1,4 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON for medium dataset
+[DEBUG] Input size: 10001 lines, 117910 bytes
+[DEBUG] Processing in 11 chunks
+[DEBUG] Processing chunk 1/11 (10805 bytes)

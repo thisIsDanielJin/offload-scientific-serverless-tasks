@@ -1,0 +1,6 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON for small dataset
+[DEBUG] Input size: 1001 lines, 10817 bytes
+[DEBUG] Processing in 2 chunks
+[DEBUG] Processing chunk 1/2 (10805 bytes)
+[DEBUG] Processing chunk 2/2 (12 bytes)
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/e2/57cf0c0ce3b95668dfc45ba37d0f4c/.command.sh: line 98: bc: command not found

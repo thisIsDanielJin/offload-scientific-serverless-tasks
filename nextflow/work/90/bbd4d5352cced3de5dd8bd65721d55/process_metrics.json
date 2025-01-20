@@ -1,0 +1,6 @@
+{
+    "process": "CONVERT_CSV_TO_JSON",
+    "total_duration_ms": 419,
+    "api_call_duration_ms": 411,
+    "completed_at": "2025-01-20T12:50:57Z"
+}

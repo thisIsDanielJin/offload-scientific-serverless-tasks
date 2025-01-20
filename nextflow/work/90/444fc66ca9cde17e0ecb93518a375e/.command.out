@@ -1,0 +1,3 @@
+[DEBUG] Running CONVERT_CSV_TO_JSON for !{dataset_size} dataset
+[DEBUG] Processing file: !{csv_file}
+[DEBUG] Making API request...
