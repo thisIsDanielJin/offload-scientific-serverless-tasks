@@ -1,0 +1,16 @@
+{
+    "timestamp": "2025-01-20T17:29:47Z",
+    "total_workflow_duration_ms": 1737392450170,
+    "dataset_metrics": [
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_06",    "metrics": {        "input_size_bytes": 129082,        "output_size_bytes": 359073,        "duration_ms": 738,        "timestamp": "2025-01-20T17:29:46Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_04",    "metrics": {        "input_size_bytes": 128992,        "output_size_bytes": 358983,        "duration_ms": 854,        "timestamp": "2025-01-20T17:29:47Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_02",    "metrics": {        "input_size_bytes": 129091,        "output_size_bytes": 359082,        "duration_ms": 771,        "timestamp": "2025-01-20T17:29:47Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "small",    "metrics": {        "input_size_bytes": 10817,        "output_size_bytes": 33808,        "duration_ms": 157,        "timestamp": "2025-01-20T17:29:45Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_03",    "metrics": {        "input_size_bytes": 128984,        "output_size_bytes": 358975,        "duration_ms": 551,        "timestamp": "2025-01-20T17:29:46Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_09",    "metrics": {        "input_size_bytes": 129000,        "output_size_bytes": 358992,        "duration_ms": 563,        "timestamp": "2025-01-20T17:29:46Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_05",    "metrics": {        "input_size_bytes": 128974,        "output_size_bytes": 358965,        "duration_ms": 690,        "timestamp": "2025-01-20T17:29:46Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_01",    "metrics": {        "input_size_bytes": 128956,        "output_size_bytes": 358947,        "duration_ms": 720,        "timestamp": "2025-01-20T17:29:46Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_07",    "metrics": {        "input_size_bytes": 129006,        "output_size_bytes": 358997,        "duration_ms": 556,        "timestamp": "2025-01-20T17:29:46Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "medium_1",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 595,        "timestamp": "2025-01-20T17:29:46Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_00",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 633,        "timestamp": "2025-01-20T17:29:46Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_08",    "metrics": {        "input_size_bytes": 128996,        "output_size_bytes": 358987,        "duration_ms": 668,        "timestamp": "2025-01-20T17:29:46Z"    }}]}

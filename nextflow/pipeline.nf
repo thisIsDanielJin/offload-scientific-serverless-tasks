@@ -45,6 +45,24 @@ workflow {
     // Process each dataset/chunk in parallel
     results = CONVERT_CSV_TO_JSON(chunked_datasets)
 
+    // Group results by base dataset ID (without chunk suffix) for merging
+    merged_results = results.results
+        .map { dataset_id, json_file ->
+            def base_id = dataset_id.split('_chunk_')[0]
+            tuple(base_id, json_file)
+        }
+        .groupTuple()
+        .branch {
+            chunked: it[1].size() > 1
+            single: it[1].size() == 1
+        }
+
+    // Merge chunked results
+    MERGE_JSON_CHUNKS(merged_results.chunked)
+
+    // Combine single and merged results
+    MERGE_JSON_CHUNKS.out.results.mix(merged_results.single)
+
     // Aggregate metrics from all runs
     AGGREGATE_METRICS(
         results.metrics.collect(),
@@ -187,5 +205,49 @@ process AGGREGATE_METRICS {
     
     echo "[DEBUG] Generated metrics content:"
     cat scalability_metrics.json
+    """
+}
+
+process MERGE_JSON_CHUNKS {
+    debug true
+    publishDir "${params.outdir}/${dataset_id}", mode: 'copy', overwrite: true
+
+    input:
+    tuple val(dataset_id), path('chunk_*.json')
+
+    output:
+    tuple val(dataset_id), path('data.json'), emit: results
+
+    script:
+    """
+    #!/bin/bash
+    set -e
+
+    echo "[DEBUG] Merging chunks for dataset: ${dataset_id}"
+    echo "[DEBUG] Found chunks:"
+    ls -la chunk_*.json
+
+    # Initialize the merged file with an opening bracket
+    echo "[" > data.json
+
+    # Concatenate all JSON files, removing the outer brackets and adding commas
+    first=true
+    for f in chunk_*.json; do
+        content=\$(cat \$f | sed 's/^\\[//g' | sed 's/\\]\$//g')
+        if [ -n "\$content" ]; then
+            if [ "\$first" = true ]; then
+                first=false
+                echo "\$content" >> data.json
+            else
+                echo "," >> data.json
+                echo "\$content" >> data.json
+            fi
+        fi
+    done
+
+    # Close the JSON array
+    echo "]" >> data.json
+
+    echo "[DEBUG] Merged JSON file size: \$(wc -c < data.json) bytes"
     """
 }

@@ -1,0 +1,8 @@
+[DEBUG] Processing large_chunk_03 dataset
+[DEBUG] Reading CSV file: input.csv
+[DEBUG] File size: 128984 bytes
+[DEBUG] First few lines of CSV:
+name,age
+User30001,10
+User30002,10
+[DEBUG] Response size: 358975 bytes

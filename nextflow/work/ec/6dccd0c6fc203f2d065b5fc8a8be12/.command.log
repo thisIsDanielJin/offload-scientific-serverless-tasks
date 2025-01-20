@@ -1,0 +1,13 @@
+[DEBUG] Merging chunks for dataset: large
+[DEBUG] Found chunks:
+lrwxr-xr-x 1 root root 163 Jan 20 17:26 chunk_10.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/83/1b1d3ffa839ff84ed52f012b16a670/data.json
+lrwxr-xr-x 1 root root 163 Jan 20 17:26 chunk_1.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/28/4b07002464a9aadeb0367fd1d08d08/data.json
+lrwxr-xr-x 1 root root 163 Jan 20 17:26 chunk_2.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/7f/933ce514b8b97a927c96edd1ab7414/data.json
+lrwxr-xr-x 1 root root 163 Jan 20 17:26 chunk_3.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/ef/ac49fed205a4cc01f08218fc24e5cd/data.json
+lrwxr-xr-x 1 root root 163 Jan 20 17:26 chunk_4.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/f7/b03f0c1c985de3343d8fa58e19126b/data.json
+lrwxr-xr-x 1 root root 163 Jan 20 17:26 chunk_5.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/c1/a03408318e9158efa7247bc65afaf1/data.json
+lrwxr-xr-x 1 root root 163 Jan 20 17:26 chunk_6.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/38/7596f0ffb7cdfcbf68c6ba171b038f/data.json
+lrwxr-xr-x 1 root root 163 Jan 20 17:26 chunk_7.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/38/24d935b9a05684a6640f0e6fdec950/data.json
+lrwxr-xr-x 1 root root 163 Jan 20 17:26 chunk_8.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/94/083e5077de9f01a5cfea91d01c648b/data.json
+lrwxr-xr-x 1 root root 163 Jan 20 17:26 chunk_9.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/72/3015cdfb156caf9e2e34d472e3222b/data.json
+[DEBUG] Merged JSON file size: 3578914 bytes

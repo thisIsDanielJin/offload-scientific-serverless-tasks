@@ -1,0 +1,8 @@
+[DEBUG] Processing small dataset
+[DEBUG] Reading CSV file: input.csv
+[DEBUG] File size: 10817 bytes
+[DEBUG] First few lines of CSV:
+name,age
+User1,84
+User2,39
+[DEBUG] Response size: 33808 bytes

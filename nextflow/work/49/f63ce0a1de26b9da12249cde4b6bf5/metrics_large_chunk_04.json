@@ -1,0 +1,10 @@
+{
+    "process": "CONVERT_CSV_TO_JSON",
+    "dataset_size": "large_chunk_04",
+    "metrics": {
+        "input_size_bytes": 128992,
+        "output_size_bytes": 358983,
+        "duration_ms": 555,
+        "timestamp": "2025-01-20T17:25:29Z"
+    }
+}
