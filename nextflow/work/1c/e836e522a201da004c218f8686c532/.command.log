@@ -1,0 +1,7 @@
+[DEBUG] Processing medium_1 dataset
+[DEBUG] Reading CSV file: Uni
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/1c/e836e522a201da004c218f8686c532/.command.sh: line 6: Uni: No such file or directory
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+head: cannot open 'Uni' for reading: No such file or directory
+Error response from daemon: No such container: nxf-AAdSWt8MR4ppB1aqAcaTuOvT

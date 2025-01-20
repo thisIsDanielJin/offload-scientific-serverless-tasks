@@ -7,10 +7,17 @@ params.outdir = "${projectDir}/results"
 params.metrics_file = "${params.outdir}/execution_metrics.json"
 params.input = "${projectDir}/data/data_small.csv"
 
+// Number of lines per chunk for large files
+params.chunk_size = 10000
+// If file has more lines than this, it will be chunked
+params.size_threshold = 30000
+
+
 // Define dataset sizes for scalability testing
 params.datasets = [
     'small': "${projectDir}/data/data_small.csv",
-    'medium': "${projectDir}/data/data_medium.csv",
+    'medium_1': "${projectDir}/data/data_medium_1.csv",
+    'large': "${projectDir}/data/data_large.csv",
 ]
 
 workflow {
@@ -21,8 +28,22 @@ workflow {
         .fromList(params.datasets.entrySet())
         .map { entry -> tuple(entry.key, file(entry.value)) }
 
-    // Process each dataset size in parallel
-    results = CONVERT_CSV_TO_JSON(datasets_ch)
+    // Split datasets into chunks if needed
+    split_datasets = SPLIT_IF_NEEDED(datasets_ch)
+
+    // Flatten the results to process each chunk
+    chunked_datasets = split_datasets
+        .transpose()
+        .map { dataset_id, csv_file ->
+            def chunk_name = csv_file.name.replace('.csv', '')
+            def final_id = chunk_name.startsWith('chunk_')
+                ? "${dataset_id}_${chunk_name}"
+                : dataset_id
+            tuple(final_id, csv_file)
+        }
+
+    // Process each dataset/chunk in parallel
+    results = CONVERT_CSV_TO_JSON(chunked_datasets)
 
     // Aggregate metrics from all runs
     AGGREGATE_METRICS(
@@ -31,12 +52,51 @@ workflow {
     )
 }
 
+process SPLIT_IF_NEEDED {
+    debug true
+
+    input:
+    tuple val(dataset_id), path(csv_file)
+
+    output:
+    tuple val(dataset_id), path('*.csv')
+
+    script:
+    """
+    #!/bin/bash
+    set -e
+
+    # Count lines in the input file (excluding header)
+    total_lines=\$(wc -l < "${csv_file}")
+    total_lines=\$((total_lines - 1))
+    
+    if [ \$total_lines -gt ${params.size_threshold} ]; then
+        echo "[DEBUG] Splitting ${dataset_id} into chunks of ${params.chunk_size} lines"
+        
+        # Save header
+        head -n 1 "${csv_file}" > header.txt
+        
+        # Split the file (excluding header) into chunks with numeric suffixes
+        tail -n +2 "${csv_file}" | split -d -l ${params.chunk_size} - "chunk_"
+        
+        # Add header to each chunk and rename to .csv
+        for chunk in chunk_*; do
+            cat header.txt "\$chunk" > "\${chunk}.csv"
+            rm "\$chunk"
+        done
+    else
+        echo "[DEBUG] File size below threshold, using as is"
+        cp "${csv_file}" "original.csv"
+    fi
+    """
+}
+
 process CONVERT_CSV_TO_JSON {
     debug true
     publishDir "${params.outdir}/${dataset_size}", mode: 'copy', overwrite: true
 
     input:
-    tuple val(dataset_size), path(csv_file)
+    tuple val(dataset_size), path('input.csv')
 
     output:
     tuple val(dataset_size), path('data.json'), emit: results
@@ -48,15 +108,15 @@ process CONVERT_CSV_TO_JSON {
     set -e
 
     echo "[DEBUG] Processing ${dataset_size} dataset"
-    echo "[DEBUG] Reading CSV file: ${csv_file}"
-    echo "[DEBUG] File size: \$(wc -c < ${csv_file}) bytes"
+    echo "[DEBUG] Reading CSV file: input.csv"
+    echo "[DEBUG] File size: \$(wc -c < input.csv) bytes"
     echo "[DEBUG] First few lines of CSV:"
-    head -n 3 ${csv_file}
+    head -n 3 input.csv
 
     start_time=\$(date +%s%N)
 
     # Read CSV content without escaping newlines
-    csv_content=\$(cat ${csv_file})
+    csv_content=\$(cat input.csv)
     
     # Create proper JSON request body and make API call
     jq -n --arg csv "\$csv_content" '{csv_data: \$csv}' | \
@@ -77,7 +137,7 @@ process CONVERT_CSV_TO_JSON {
     "process": "CONVERT_CSV_TO_JSON",
     "dataset_size": "${dataset_size}",
     "metrics": {
-        "input_size_bytes": \$(wc -c < ${csv_file}),
+        "input_size_bytes": \$(wc -c < input.csv),
         "output_size_bytes": \$(wc -c < data.json),
         "duration_ms": \$duration,
         "timestamp": "\$(date -u +"%Y-%m-%dT%H:%M:%SZ")"

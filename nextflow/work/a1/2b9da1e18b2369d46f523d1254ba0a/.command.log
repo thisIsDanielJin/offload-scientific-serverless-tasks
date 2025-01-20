@@ -1,0 +1,7 @@
+[DEBUG] Processing small_chunkDropbox dataset
+[DEBUG] Reading CSV file: Dropbox
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/a1/2b9da1e18b2369d46f523d1254ba0a/.command.sh: line 6: Dropbox: No such file or directory
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+head: cannot open 'Dropbox' for reading: No such file or directory
+nxf-mSljNi6eMI0qXzI0UACB4CMP

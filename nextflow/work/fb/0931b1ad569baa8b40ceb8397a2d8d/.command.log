@@ -1,0 +1,7 @@
+Error response from daemon: No such container: nxf-PSxvHAJGvUNTvbbcp74Nhc2m
+[DEBUG] Processing small dataset
+[DEBUG] Reading CSV file: Operating\ Complex\ IT-Systems
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/fb/0931b1ad569baa8b40ceb8397a2d8d/.command.sh: line 6: Operating\ Complex\ IT-Systems: No such file or directory
+head: cannot open 'Operating\ Complex\ IT-Systems' for reading: No such file or directory

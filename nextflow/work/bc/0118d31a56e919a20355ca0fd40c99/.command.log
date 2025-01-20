@@ -1,0 +1,8 @@
+[DEBUG] Processing medium_2 dataset
+[DEBUG] Reading CSV file: data_medium_2.csv
+[DEBUG] File size: 117910 bytes
+[DEBUG] First few lines of CSV:
+name,age
+User1,84
+User2,39
+[DEBUG] Response size: 347901 bytes

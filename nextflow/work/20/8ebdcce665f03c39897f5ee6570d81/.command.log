@@ -1,0 +1,6 @@
+[DEBUG] Processing small dataset
+[DEBUG] Reading CSV file: work
+wc: 'standard input': Is a directory
+[DEBUG] File size: 0 bytes
+[DEBUG] First few lines of CSV:
+head: error reading 'work': Is a directory

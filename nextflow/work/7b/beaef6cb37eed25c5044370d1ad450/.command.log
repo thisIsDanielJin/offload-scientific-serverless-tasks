@@ -1,0 +1,7 @@
+[DEBUG] Processing medium_1_chunkpoc dataset
+[DEBUG] Reading CSV file: serverless_scientific_workflow_poc
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/7b/beaef6cb37eed25c5044370d1ad450/.command.sh: line 6: serverless_scientific_workflow_poc: No such file or directory
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+head: cannot open 'serverless_scientific_workflow_poc' for reading: No such file or directory
+nxf-8AzfzTpVET7qYL8hBACLAlQK

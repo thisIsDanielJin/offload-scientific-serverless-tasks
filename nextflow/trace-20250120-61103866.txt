@@ -1,4 +1,0 @@
-task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
-1	7c/55a450	52989	CONVERT_CSV_TO_JSON (1)	COMPLETED	0	2025-01-20 16:58:24.356	494ms	174ms	34.4%	2.6 MB	6.5 MB	441.3 KB	68.6 KB
-2	2a/bbcfe2	52997	CONVERT_CSV_TO_JSON (2)	COMPLETED	0	2025-01-20 16:58:24.365	699ms	379ms	21.3%	2.8 MB	6.5 MB	1.1 MB	707 KB
-3	59/bf96c9	53022	AGGREGATE_METRICS	COMPLETED	0	2025-01-20 16:58:25.091	316ms	22ms	41.4%	2.8 MB	6.5 MB	70.6 KB	2.3 KB

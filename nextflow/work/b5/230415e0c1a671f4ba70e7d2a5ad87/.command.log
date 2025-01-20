@@ -1,0 +1,7 @@
+[DEBUG] Processing medium_1 dataset
+[DEBUG] Reading CSV file: danielwodke
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/b5/230415e0c1a671f4ba70e7d2a5ad87/.command.sh: line 6: danielwodke: No such file or directory
+head: cannot open 'danielwodke' for reading: No such file or directory
+nxf-Qx9ylBA5SRXQz84v902JAAIa

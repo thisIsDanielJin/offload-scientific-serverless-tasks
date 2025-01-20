@@ -1,0 +1,7 @@
+[DEBUG] Processing small_chunk9 dataset
+[DEBUG] Reading CSV file: Semester_9
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/3a/e61abd9b88d2638f44712962dbd65d/.command.sh: line 6: Semester_9: No such file or directory
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+head: cannot open 'Semester_9' for reading: No such file or directory
+nxf-Koc5QlWatSbj3SfaeyeXpa7J

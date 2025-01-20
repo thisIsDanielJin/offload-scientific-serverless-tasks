@@ -1,0 +1,7 @@
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/14/52980bfa03eae720660d9ab8418a83/.command.sh: line 6: Uni: No such file or directory
+head: cannot open 'Uni' for reading: No such file or directory
+[DEBUG] Processing small dataset
+[DEBUG] Reading CSV file: Uni
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+nxf-kepgeOc9G6LJpzqR37AFsS0y

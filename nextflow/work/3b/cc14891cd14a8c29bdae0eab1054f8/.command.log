@@ -1,0 +1,7 @@
+[DEBUG] Processing small_chunkd3 dataset
+[DEBUG] Reading CSV file: d3
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/3b/cc14891cd14a8c29bdae0eab1054f8/.command.sh: line 6: d3: No such file or directory
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+head: cannot open 'd3' for reading: No such file or directory
+nxf-v3s7UFCE4EEpBUH3BC73H0ZQ

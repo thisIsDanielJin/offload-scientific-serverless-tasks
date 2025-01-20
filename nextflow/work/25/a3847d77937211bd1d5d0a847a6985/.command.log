@@ -1,0 +1,7 @@
+[DEBUG] Processing medium_1 dataset
+[DEBUG] Reading CSV file: nextflow
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/25/a3847d77937211bd1d5d0a847a6985/.command.sh: line 6: nextflow: No such file or directory
+head: cannot open 'nextflow' for reading: No such file or directory
+Error response from daemon: No such container: nxf-aiWXtmHq1muzEOzmL1EAUYkA

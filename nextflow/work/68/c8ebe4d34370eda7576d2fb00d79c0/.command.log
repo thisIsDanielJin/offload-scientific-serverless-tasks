@@ -1,0 +1,7 @@
+[DEBUG] Processing small dataset
+[DEBUG] Reading CSV file: 1f
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/68/c8ebe4d34370eda7576d2fb00d79c0/.command.sh: line 6: 1f: No such file or directory
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+head: cannot open '1f' for reading: No such file or directory
+nxf-MAaQLaLdjQY880UyRseMWNnS

@@ -1,0 +1,14 @@
+[DEBUG] Available metrics files:
+lrwxr-xr-x 1 root root 172 Jan 20 17:01 metrics_1.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/db/d58d61e2c0695898f85ebe93317d0d/metrics_small.json
+lrwxr-xr-x 1 root root 175 Jan 20 17:01 metrics_2.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/6a/c134250f9f76ebfb050301a8351bef/metrics_medium_2.json
+lrwxr-xr-x 1 root root 175 Jan 20 17:01 metrics_3.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/5c/307dbf51ca3d59947dd1e98c3de8cf/metrics_medium_3.json
+lrwxr-xr-x 1 root root 175 Jan 20 17:01 metrics_4.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/55/87e5207b7e4493aa8c98451000a1e8/metrics_medium_1.json
+[DEBUG] Generated metrics content:
+{
+    "timestamp": "2025-01-20T17:01:51Z",
+    "total_workflow_duration_ms": 1737390774220,
+    "dataset_metrics": [
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "small",    "metrics": {        "input_size_bytes": 10817,        "output_size_bytes": 33808,        "duration_ms": 182,        "timestamp": "2025-01-20T17:01:50Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "medium_2",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 539,        "timestamp": "2025-01-20T17:01:51Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "medium_3",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 445,        "timestamp": "2025-01-20T17:01:51Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "medium_1",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 496,        "timestamp": "2025-01-20T17:01:51Z"    }}]}

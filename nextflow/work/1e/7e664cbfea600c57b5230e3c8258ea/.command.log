@@ -1,0 +1,7 @@
+Error response from daemon: No such container: nxf-m8NYZbM4CvIdn0hj6Pp79bzB
+[DEBUG] Processing small_chunkdanielwodke dataset
+[DEBUG] Reading CSV file: danielwodke
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/1e/7e664cbfea600c57b5230e3c8258ea/.command.sh: line 6: danielwodke: No such file or directory
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+head: cannot open 'danielwodke' for reading: No such file or directory

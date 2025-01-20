@@ -1,0 +1,7 @@
+Error response from daemon: No such container: nxf-D0YIXMfuFtrMVXb79mby09nC
+[DEBUG] Processing medium_1 dataset
+[DEBUG] Reading CSV file: Dropbox
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/e6/cea41390ee5ae775c67ea9942bc8a4/.command.sh: line 6: Dropbox: No such file or directory
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+head: cannot open 'Dropbox' for reading: No such file or directory

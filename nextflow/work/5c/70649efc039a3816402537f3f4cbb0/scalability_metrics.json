@@ -1,0 +1,8 @@
+{
+    "timestamp": "2025-01-20T17:01:10Z",
+    "total_workflow_duration_ms": 1737390733106,
+    "dataset_metrics": [
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "small",    "metrics": {        "input_size_bytes": 10817,        "output_size_bytes": 33808,        "duration_ms": 194,        "timestamp": "2025-01-20T17:01:09Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "medium_1",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 483,        "timestamp": "2025-01-20T17:01:09Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "medium_3",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 553,        "timestamp": "2025-01-20T17:01:10Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "medium_2",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 550,        "timestamp": "2025-01-20T17:01:10Z"    }}]}

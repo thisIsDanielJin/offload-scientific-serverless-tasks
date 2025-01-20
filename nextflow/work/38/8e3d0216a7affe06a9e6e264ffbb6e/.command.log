@@ -1,0 +1,7 @@
+[DEBUG] Processing medium_1_chunkUsers dataset
+[DEBUG] Reading CSV file: Users
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/38/8e3d0216a7affe06a9e6e264ffbb6e/.command.sh: line 6: Users: No such file or directory
+head: cannot open 'Users' for reading: No such file or directory
+Error response from daemon: No such container: nxf-yA0F90b3jJrTf6K7hcggrSMv

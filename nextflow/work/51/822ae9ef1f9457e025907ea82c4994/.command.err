@@ -1,0 +1,2 @@
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/51/822ae9ef1f9457e025907ea82c4994/.command.sh: line 6: original.csv: No such file or directory
+head: cannot open 'original.csv' for reading: No such file or directory

@@ -100,3 +100,13 @@
 2025-01-20 16:57:36	2.4s	jolly_kimura	OK	38fea346c9247e810d81fb09ecef375c	1560ea2d-a64c-4992-9fa4-23b1c5575ad3	nextflow run pipeline.nf -with-docker nextflow_gfc_image
 2025-01-20 16:58:00	2.2s	amazing_lovelace	OK	fd2a0e55b4e90313204432803e0302c1	7ead1891-ef6f-4f91-9d84-957b644d4824	nextflow run pipeline.nf -with-docker nextflow_gfc_image
 2025-01-20 16:58:23	2.6s	grave_wiles	OK	fd2a0e55b4e90313204432803e0302c1	92413960-98b6-476c-8232-4a56d1ae8536	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 17:58:40	3.3s	sad_pesquet	OK	df7b32bcdd090d5f4a85679cbf6b79ff	cbdc6908-1357-4f89-bde7-0070058f8b07	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 18:01:08	2.9s	sharp_hilbert	OK	df7b32bcdd090d5f4a85679cbf6b79ff	eefce01b-1286-4022-b500-99c11e650e28	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 18:01:49	2.9s	backstabbing_volta	OK	df7b32bcdd090d5f4a85679cbf6b79ff	655d1c47-41a2-417c-a0f7-02f2afe5144e	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 18:13:12	2.8s	silly_yonath	ERR	ebbdaf9e49e463641fa92355e7fcea38	4b1e0559-c229-46e8-8018-aa56cebb5848	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 18:14:57	-	small_mestorf	-	38078c353af2aa11b9e3e0c63bf228b9	37f555c2-4d77-4a48-a008-2f3185461d03	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 18:15:15	2.4s	distracted_morse	ERR	ebbdaf9e49e463641fa92355e7fcea38	a334647b-8b8d-42ae-93b5-57a04b57141a	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 18:18:04	2.7s	fervent_moriondo	ERR	f31b1fa225ddae9ed101195941931aa7	cb1651fd-1ff6-4c12-a1c8-e0b73fca03f5	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 18:19:50	2.9s	grave_carson	ERR	41eedaed567ac6b96298e6e07631518f	f08ba5a5-321d-4db1-9928-b142b780dc11	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 18:21:08	2.4s	cheesy_goldstine	ERR	6524e44eb2a5a0a65bf253a8f7970385	7a1ea5dd-86ad-475f-9866-1161829c2dd9	nextflow run pipeline.nf -with-docker nextflow_gfc_image
+2025-01-20 18:23:03	4.5s	determined_minsky	OK	e303e4808b71840ad0bab324d4949c78	ffa73b37-55fc-42e3-9792-48fb21ae55d6	nextflow run pipeline.nf -with-docker nextflow_gfc_image

@@ -1,0 +1,7 @@
+[DEBUG] Processing small_chunk1bc864946417f9623925bde916900d dataset
+[DEBUG] Reading CSV file: 1bc864946417f9623925bde916900d
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/58/63c373e4c5215ef088326eb3b05ed5/.command.sh: line 6: 1bc864946417f9623925bde916900d: No such file or directory
+head: cannot open '1bc864946417f9623925bde916900d' for reading: No such file or directory
+Error response from daemon: No such container: nxf-PI7LMA5ymEUdH1ryaeXLGYWF

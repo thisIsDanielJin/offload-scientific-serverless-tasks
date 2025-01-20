@@ -1,0 +1,30 @@
+[DEBUG] Available metrics files:
+lrwxr-xr-x 1 root root 181 Jan 20 17:23 metrics_10.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/13/40c1aa48c5646d95c185f082477c64/metrics_large_chunk_05.json
+lrwxr-xr-x 1 root root 181 Jan 20 17:23 metrics_11.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/55/d98e85aabda6c0f6b5181b9e307e07/metrics_large_chunk_08.json
+lrwxr-xr-x 1 root root 181 Jan 20 17:23 metrics_12.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/d1/d61fbebabad1c828a0fa82029b628e/metrics_large_chunk_02.json
+lrwxr-xr-x 1 root root 172 Jan 20 17:23 metrics_1.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/13/801bf752beb09e1349f42f722abf6d/metrics_small.json
+lrwxr-xr-x 1 root root 175 Jan 20 17:23 metrics_2.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/ca/f0a1066a4a7ed9ca5088cf24585ce0/metrics_medium_1.json
+lrwxr-xr-x 1 root root 181 Jan 20 17:23 metrics_3.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/50/8a67c5f43e9481306495b8bc9b2170/metrics_large_chunk_01.json
+lrwxr-xr-x 1 root root 181 Jan 20 17:23 metrics_4.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/e0/41a88d6d5ec3f50494f19c060304b6/metrics_large_chunk_00.json
+lrwxr-xr-x 1 root root 181 Jan 20 17:23 metrics_5.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/ad/c6834c1a6f921da49ae719111113c5/metrics_large_chunk_07.json
+lrwxr-xr-x 1 root root 181 Jan 20 17:23 metrics_6.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/2e/55f948dabec601735612cd0586ffc0/metrics_large_chunk_03.json
+lrwxr-xr-x 1 root root 181 Jan 20 17:23 metrics_7.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/cc/ad767617da200d5d17cc19f975a956/metrics_large_chunk_04.json
+lrwxr-xr-x 1 root root 181 Jan 20 17:23 metrics_8.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/45/3e7ecb48fb1e277460e4f41e30f674/metrics_large_chunk_09.json
+lrwxr-xr-x 1 root root 181 Jan 20 17:23 metrics_9.json -> /Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/cf/f77fc8883a5e75992f239db04d039e/metrics_large_chunk_06.json
+[DEBUG] Generated metrics content:
+{
+    "timestamp": "2025-01-20T17:23:07Z",
+    "total_workflow_duration_ms": 1737392049871,
+    "dataset_metrics": [
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_05",    "metrics": {        "input_size_bytes": 128974,        "output_size_bytes": 358965,        "duration_ms": 1253,        "timestamp": "2025-01-20T17:23:06Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_08",    "metrics": {        "input_size_bytes": 128996,        "output_size_bytes": 358987,        "duration_ms": 1207,        "timestamp": "2025-01-20T17:23:06Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_02",    "metrics": {        "input_size_bytes": 129091,        "output_size_bytes": 359082,        "duration_ms": 1472,        "timestamp": "2025-01-20T17:23:06Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "small",    "metrics": {        "input_size_bytes": 10817,        "output_size_bytes": 33808,        "duration_ms": 868,        "timestamp": "2025-01-20T17:23:05Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "medium_1",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 815,        "timestamp": "2025-01-20T17:23:05Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_01",    "metrics": {        "input_size_bytes": 128956,        "output_size_bytes": 358947,        "duration_ms": 765,        "timestamp": "2025-01-20T17:23:06Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_00",    "metrics": {        "input_size_bytes": 117910,        "output_size_bytes": 347901,        "duration_ms": 887,        "timestamp": "2025-01-20T17:23:06Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_07",    "metrics": {        "input_size_bytes": 129006,        "output_size_bytes": 358997,        "duration_ms": 870,        "timestamp": "2025-01-20T17:23:06Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_03",    "metrics": {        "input_size_bytes": 128984,        "output_size_bytes": 358975,        "duration_ms": 907,        "timestamp": "2025-01-20T17:23:06Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_04",    "metrics": {        "input_size_bytes": 128992,        "output_size_bytes": 358983,        "duration_ms": 860,        "timestamp": "2025-01-20T17:23:06Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_09",    "metrics": {        "input_size_bytes": 129000,        "output_size_bytes": 358992,        "duration_ms": 840,        "timestamp": "2025-01-20T17:23:06Z"    }},
+{    "process": "CONVERT_CSV_TO_JSON",    "dataset_size": "large_chunk_06",    "metrics": {        "input_size_bytes": 129082,        "output_size_bytes": 359073,        "duration_ms": 1191,        "timestamp": "2025-01-20T17:23:06Z"    }}]}

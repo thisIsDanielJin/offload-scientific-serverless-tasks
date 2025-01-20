@@ -1,0 +1,7 @@
+[DEBUG] Processing medium_1_chunkOperating Complex IT-Systems dataset
+[DEBUG] Reading CSV file: Operating\ Complex\ IT-Systems
+/Users/danielwodke/Dropbox/Uni/Semester_9/Operating Complex IT-Systems/serverless_scientific_workflow_poc/nextflow/work/26/3f14bd635744576dfc889cd773b202/.command.sh: line 6: Operating Complex IT-Systems: No such file or directory
+[DEBUG] File size:  bytes
+[DEBUG] First few lines of CSV:
+head: cannot open 'Operating Complex IT-Systems' for reading: No such file or directory
+nxf-K17SB00LbUbN10h0hJ1oJKzQ
